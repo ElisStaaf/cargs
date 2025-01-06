@@ -1,18 +1,3 @@
-# CArgs
-CArgs is a command line argument parser for both C *and* C++ 
-(dunno why you'd want to write C++ though -_-), it includes
-such features such as... Command line argument parsing. Enjoy!
-
-## Install
-```sh
-git clone https://github.com/ElisStaaf/cargs
-cd cargs
-sudo make
-```
-
-## Example
-``C``:
-```c
 #include<cargs.h>
 #include<string.h>
 #include<stdio.h>
@@ -108,15 +93,3 @@ int main(int argc, char **argv)
     cargs_destroy(&cargs);
     return 0;
 }
-```
-``C++``:
-```cpp
-#include <iostream.h>
-using namespace std;
-
-int main() {
-    std::cout << "I'm to lazy rn -_-, I'll add an example later.\n"
-    std::cout << "    Sincerely, Elis Staaf."
-    return 0;
-}
-```
