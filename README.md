@@ -99,8 +99,8 @@ int main(int argc, char **argv)
     printf("passed.\n");
 
     cargs_help_msg_gen(
-        "Usage: whore",
-        "damn",
+        "Usage: Blabla",
+        "Blabla",
         &cargs
     );
     printf("%s\n", cargs_help_msg_get(&cargs));
